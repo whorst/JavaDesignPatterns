@@ -48,5 +48,5 @@ public class DBSingleton {
         } catch (InstanceAlreadyExistsException e) {
             e.printStackTrace();
         }
-        }
     }
+}

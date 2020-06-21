@@ -1,0 +1,10 @@
+Builder
+    Handles Complex Constructors
+    Large number of parameters
+    Immutability can be forced once construction is finished
+    Examples - StringBuilder, DocumentBuilder
+
+Design
+    Written with a static inner class which returns the instance of the object it is building
+    Static Inner Class
+    Negates the need for exposed setters
