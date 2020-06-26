@@ -1,0 +1,17 @@
+Avoids Costly Creation
+Avoids Subclassing
+Dont Use the Keyword New - The first instance might use the word new but after they are closed
+An Interface could be used
+We could also use a registry to keep track of objects
+
+Design
+- Clone/Cloneable
+- Avoids Keyword new
+- Each instance unique
+- Can utilize parameters for construction
+
+Pitfalls
+- Not really used
+- Used With Other Patterns. A framework is a pattern which uses other patterns
+    - registry
+- Shallow copy is only done with clone, not deep copy.
