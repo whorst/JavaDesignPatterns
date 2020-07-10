@@ -31,7 +31,6 @@ public class DBSingleton {
             DBSingleton mySingleton = new DBSingleton();
             System.out.println(mySingleton.getInstance());
             DBSingleton mySingletonTwo = new DBSingleton();
-            System.out.println(mySingletonTwo.getInstance());
         } catch (InstanceAlreadyExistsException e) {
             e.printStackTrace();
         }

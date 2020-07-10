@@ -1,4 +1,7 @@
 import CreationPatterns.Builder.CorrectLunchOrderBuilder;
+import CreationPatterns.Factory.CalendarExample;
+import CreationPatterns.Factory.Pages.Website;
+import CreationPatterns.Factory.Pages.WebsiteFactory;
 import CreationPatterns.Prototype.BookRegistry.Registry;
 import CreationPatterns.Singleton.DBSingleton;
 import CreationPatterns.Prototype.*;
@@ -8,9 +11,20 @@ import java.util.List;
 
 public class main {
     public static void main(String[] args) throws Exception {
+        Factory();
 //        Singleton();
 //        Builder();
-        Prototype();
+//        Prototype();
+    }
+
+
+    public static void Factory() {
+//        CalendarExample.calendarExample();
+        Website site = WebsiteFactory.getWebsite("blog");
+        System.out.println(site.getPages());
+
+        site = WebsiteFactory.getWebsite("shop");
+        System.out.println(site.getPages());
     }
 
     public static void Prototype() {

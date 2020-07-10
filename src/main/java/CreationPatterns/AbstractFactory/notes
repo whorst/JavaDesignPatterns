@@ -1,0 +1,11 @@
+Concepts
+
+-Factory of Factories
+-Factory of related objects
+-common interface
+-defer creation to subclasses
+
+Design
+
+-Group collection of factories together
+-Common interface carried through the abstract factory
