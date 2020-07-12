@@ -1,0 +1,22 @@
+Concepts
+-Used to decouple sender and receiver objects.
+    -They dont necessarily have to know who they are
+-Receiver contains reference to next receiver
+-Used to Promote loose coupling
+-No Handler - OK
+-Example of this is java.util.logging.Logger#log()
+-Another example is the Spring Security Filter Chain
+
+Design
+-Chain of receiver objects
+-Handler is interface based
+-ConcreteHandler for each implementation
+-Each Handler has a reference to the next
+-Handler, Concrete Handler
+
+Pitfalls
+-Handling/Handler Guaranteed
+    -Not Guaranteed will someone in the chain will handle the request
+-Chain length can get quite hard with more handlers
+
+-Handlers should be unique and knowing about its successor

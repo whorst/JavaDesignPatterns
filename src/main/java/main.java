@@ -1,3 +1,5 @@
+import BehavioralPatterns.ChainOfResponsibility.CeoExample.ChainOfResponsibilityDemo;
+import BehavioralPatterns.ChainOfResponsibility.LoggingExample;
 import CreationPatterns.Builder.CorrectLunchOrderBuilder;
 import CreationPatterns.Factory.CalendarExample;
 import CreationPatterns.Factory.Pages.Website;
@@ -11,12 +13,16 @@ import java.util.List;
 
 public class main {
     public static void main(String[] args) throws Exception {
-        Factory();
+//        Factory();
 //        Singleton();
 //        Builder();
 //        Prototype();
     }
 
+    public static void ChainOfResponsibility() {
+        LoggingExample.firstExample();
+        ChainOfResponsibilityDemo.exampleTwo();
+    }
 
     public static void Factory() {
 //        CalendarExample.calendarExample();
