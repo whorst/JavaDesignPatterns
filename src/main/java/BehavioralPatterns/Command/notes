@@ -1,0 +1,21 @@
+-Allows you to encapsulate each request as an object
+
+Concepts
+-Object oriented callback requests
+-Decoupled sender from processor
+-Often used for undo functionality
+-examples: java.lang.Runnable, javax.swing.Actions
+
+Design
+-Object per command
+-Command interface, all implementations of this interface contains an execute method
+-unexecute method
+-Reflections decouples the client from the receiver
+-Made up of command, invoker, and ConcreteCommand
+
+Pitfalls
+-Dependence on other patterns
+-Multiple Commands
+-Make use of Memnto pattern to handle state?
+
+

@@ -1,22 +1,43 @@
 import BehavioralPatterns.ChainOfResponsibility.CeoExample.ChainOfResponsibilityDemo;
 import BehavioralPatterns.ChainOfResponsibility.LoggingExample;
+import BehavioralPatterns.Command.RunnableExample;
+import BehavioralPatterns.Command.SwitchExample.CommandDemo;
+import BehavioralPatterns.Interpreter.InterpreterExample.InterpreterDemo;
+import BehavioralPatterns.Interpreter.PatternExample;
 import CreationPatterns.Builder.CorrectLunchOrderBuilder;
-import CreationPatterns.Factory.CalendarExample;
 import CreationPatterns.Factory.Pages.Website;
 import CreationPatterns.Factory.Pages.WebsiteFactory;
 import CreationPatterns.Prototype.BookRegistry.Registry;
 import CreationPatterns.Singleton.DBSingleton;
-import CreationPatterns.Prototype.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import static BehavioralPatterns.Command.MacroExample.CommandDemo.exampleFour;
 
 public class main {
     public static void main(String[] args) throws Exception {
+
+//Behavioral
+          Interpreter();
+//        Command();
+//        ChainOfResponsibility();
+
+
+//Creational
 //        Factory();
 //        Singleton();
 //        Builder();
 //        Prototype();
+    }
+
+    public static void Interpreter() {
+        InterpreterDemo.ExampleTwo();
+//        PatternExample.ExampleOne();
+    }
+
+    public static void Command() {
+        exampleFour();
+        BehavioralPatterns.Command.StateExample.CommandDemo.exampleThree();
+//        CommandDemo.exampleTwo();
+//        RunnableExample.exampleOne();
     }
 
     public static void ChainOfResponsibility() {

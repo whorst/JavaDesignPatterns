@@ -24,7 +24,7 @@ public class CorrectLunchOrderBuilder {
 
         }
 
-        public CorrectLunchOrderBuilder build(){
+        public CorrectLunchOrderBuilder build() {
             return new CorrectLunchOrderBuilder(this);
         }
 

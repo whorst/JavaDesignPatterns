@@ -1,0 +1,16 @@
+Concepts
+-This design pattern represents a grammar
+-usually used for source code compiling
+-interpret a sentence
+-map out a domain specific language
+-Abstract Syntax Tree
+
+-Examples
+    -java.util.Pattern/Regex
+    -java.text.Format, used to format local grammar
+
+Design
+-AbstractExpression - A base class that declares an interface for executing an operation
+-Interpret
+-TerminalExpression - represent a leaf of a tree
+-NonTerminalExpression - an expression that contains other expressions
