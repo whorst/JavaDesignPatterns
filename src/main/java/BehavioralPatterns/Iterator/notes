@@ -1,0 +1,15 @@
+Concepts
+-used to traverse a container
+-Don't expose underlying structure of whats being iterated
+-Decouple algorithms
+-Sequential in nature, even if not all objects have a sequential set of data
+
+example: java.util.Iterator, java.util.Enumeration
+
+Design:
+-Interface based, the object being iterated will provide a method to return an iterator from it
+-Independent but fail fast, two iterators cant modify object without errors
+-Enumerators are fail safe
+-Iterator, ConcreteIterator
+
+

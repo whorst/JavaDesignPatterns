@@ -4,6 +4,7 @@ import BehavioralPatterns.Command.RunnableExample;
 import BehavioralPatterns.Command.SwitchExample.CommandDemo;
 import BehavioralPatterns.Interpreter.InterpreterExample.InterpreterDemo;
 import BehavioralPatterns.Interpreter.PatternExample;
+import BehavioralPatterns.Iterator.IteratorDemo;
 import CreationPatterns.Builder.CorrectLunchOrderBuilder;
 import CreationPatterns.Factory.Pages.Website;
 import CreationPatterns.Factory.Pages.WebsiteFactory;
@@ -16,10 +17,10 @@ public class main {
     public static void main(String[] args) throws Exception {
 
 //Behavioral
-          Interpreter();
+    Iterator();
+//          Interpreter();
 //        Command();
 //        ChainOfResponsibility();
-
 
 //Creational
 //        Factory();
@@ -28,8 +29,12 @@ public class main {
 //        Prototype();
     }
 
+    public static void Iterator() {
+        IteratorDemo.exampleOne();
+    }
+
     public static void Interpreter() {
-        InterpreterDemo.ExampleTwo();
+//        InterpreterDemo.ExampleTwo();
 //        PatternExample.ExampleOne();
     }
 
