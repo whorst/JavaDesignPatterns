@@ -1,0 +1,17 @@
+Concepts
+-Loose Coupling
+-Well-defined, but complex
+-Reusable components
+-Acts as a hub/router in your app that all communication goes through
+
+Design
+-Interface Based with a Concrete Class
+-Minimizes Inheritance
+-Mediator knows about all of the colleagues
+-Mediator, concrete mediator
+
+ Contrast
+ -Mediator                      Observer
+ Defines Interaction          One to Many
+ Object Decoupling            Object Decoupling
+ More Specific                More Generic

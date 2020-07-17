@@ -1,6 +1,5 @@
 package BehavioralPatterns.Interpreter.InterpreterExample;
 
-import oracle.jrockit.jfr.events.DynamicValueDescriptor;
 
 import java.util.StringTokenizer;
 
