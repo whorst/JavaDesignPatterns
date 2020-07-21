@@ -5,7 +5,11 @@ import BehavioralPatterns.Command.SwitchExample.CommandDemo;
 import BehavioralPatterns.Interpreter.InterpreterExample.InterpreterDemo;
 import BehavioralPatterns.Interpreter.PatternExample;
 import BehavioralPatterns.Iterator.IteratorDemo;
+import BehavioralPatterns.Mediator.MediatorExample.MediatorDemo;
 import BehavioralPatterns.Mediator.TimerExample;
+import BehavioralPatterns.Memento.EmployeeExample.SerializableExample;
+import BehavioralPatterns.Memento.MomentoExample.EmployeeMemento;
+import BehavioralPatterns.Memento.MomentoExample.MementoDemo;
 import CreationPatterns.Builder.CorrectLunchOrderBuilder;
 import CreationPatterns.Factory.Pages.Website;
 import CreationPatterns.Factory.Pages.WebsiteFactory;
@@ -18,7 +22,8 @@ public class main {
     public static void main(String[] args) throws Exception {
 
 //Behavioral
-        Mediator();
+        Memento();
+//        Mediator();
 //        Iterator();
 //        Interpreter();
 //        Command();
@@ -31,10 +36,16 @@ public class main {
 //        Prototype();
     }
 
+    public static void Memento() {
+        SerializableExample.exampleOne();
+        MementoDemo.exampleTwo();
+    }
+
     public static void Mediator() {
         //Difference between mediator and command pattern
         //https://softwareengineering.stackexchange.com/questions/364139/what-is-the-difference-between-the-command-and-mediator-patterns#:~:text=Is%20it%20the%20right%20question,Player%20or%20by%20a%20mediator).
         TimerExample.exampleOne(1);
+        MediatorDemo.exampleTwo();
     }
 
     public static void Iterator() {

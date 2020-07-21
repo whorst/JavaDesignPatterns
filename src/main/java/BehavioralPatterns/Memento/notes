@@ -1,0 +1,15 @@
+Concepts
+-Return Object to previous state
+-Externalize internal state
+-Undo/rollback
+-Shields complex internals from other objects
+
+example: Java.io.serializable - Have an objects state recreatable
+
+Design
+-Class based
+-Originator creates a memento
+-Caretaker - manages the copies of the objects we've created, the list of undos
+-Memento - represents the copy of the originator we want to store
+-Magic cookie -The combination of fields it takes to save the object
+
