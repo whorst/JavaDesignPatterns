@@ -1,0 +1,30 @@
+Concepts
+    -When a subject has one to many observers
+    -Objects get decoupled
+    -Event Handling
+    -Could be called Pub/Sub model
+    -Sometimes used in async fashion
+
+Examples
+    -Java.util.observer
+    -Java.util.EventListener
+    -
+
+Design
+    -Subject that needs to be observed
+    -Observer
+    -The subject implements an observable interface
+    -Concrete observers are views in event driven application
+
+Pitfalls
+    -Large update consequences
+
+Compared to mediator....
+    -The observer has one subject and many observers
+    -Decouple
+    -Uses a pub sub model
+
+The mediator
+    -Is more of a one to one to many
+    -Used to handle complex communication
+
