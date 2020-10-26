@@ -22,7 +22,7 @@ public class main {
     public static void main(String[] args) throws Exception {
 
 //Behavioral
-        Memento();
+//        Memento();
 //        Mediator();
 //        Iterator();
 //        Interpreter();
@@ -33,7 +33,7 @@ public class main {
 //        Factory();
 //        Singleton();
 //        Builder();
-//        Prototype();
+        Prototype();
     }
 
     public static void Memento() {

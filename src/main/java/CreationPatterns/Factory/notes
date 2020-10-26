@@ -1,6 +1,6 @@
 Concepts
 -Doesnt expose instantiation logic
--Defers instantiation login to subclass
+-Defers instantiation logic to subclass
 -Common interface
 -Specified by architecture, implemented by user
 
