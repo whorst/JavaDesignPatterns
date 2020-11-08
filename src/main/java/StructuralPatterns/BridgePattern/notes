@@ -1,0 +1,19 @@
+Concepts
+-Meant to decouple abstraction and implementation
+-Encapsulation, Composition, Inheritance
+-Changes in abstraction won't effect the client
+-Changes in abstraction won't affect client
+-Details won't be right
+
+Examples
+    JDBC Drivers
+
+Design
+-uses interfaces and abstract classes
+-More than composition
+-Expect change from bothe sides
+-abstraction, implementor, refined abstraction, concrete implementor
+
+Derek Banas explains it better:
+https://www.youtube.com/watch?v=9jIgSsIfh_8
+-Two layers of abstraction between a concrete, where one abstract class is dependent on another

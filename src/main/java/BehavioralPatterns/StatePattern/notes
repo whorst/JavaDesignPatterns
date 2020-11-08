@@ -1,0 +1,12 @@
+Concepts
+-Used to Localize State Behavior
+-Separates what from where
+-Open for extension closed to change
+-Not a great example of the state pattern
+
+Design
+-Abstract class/interface based
+-Each state is class based
+-Context unaware
+-Before the state pattern, one object had a large if/then/else diagram
+-Context, State, Concrete

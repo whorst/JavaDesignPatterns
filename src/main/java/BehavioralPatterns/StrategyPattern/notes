@@ -1,0 +1,13 @@
+Concepts
+-See the need to eliminate conditional statements
+-Behavior encapsulated in class
+-Difficult to add new strategies
+-Client is aware of the strategies and chooses one
+-An example is the java.util.comparator
+
+Design
+-Uses abstract base class
+-Concrete class implements something related to the strategy
+-Remove if/else conditionals
+-Strategies are independent
+-Context, Strategy, concreteStrategy are the components

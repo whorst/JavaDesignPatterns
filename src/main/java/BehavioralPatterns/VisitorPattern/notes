@@ -1,0 +1,15 @@
+Concepts
+-Separate Algorithm from object
+-Used when expected to add new features
+-Maintain the Open/Close principle
+-Visitor Changes
+-Examples:
+    java.lang.model.element.Element
+
+Design Considerations
+-Interface based
+-Visitor and Element
+-Elements have visit method
+-Visitor knows every Element
+-Visitor, ConcreteVisitor, Element, ConcreteElement
+

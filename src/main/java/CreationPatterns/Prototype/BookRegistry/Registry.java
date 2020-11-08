@@ -52,5 +52,8 @@ public class Registry {
         System.out.println(anotherMovie.getRuntime());
         System.out.println(anotherMovie.getTitle());
         System.out.println(anotherMovie.getUrl());
+
+        Book book = (Book) registry.createItem("Book");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>" + book.getTitle());
     }
 }

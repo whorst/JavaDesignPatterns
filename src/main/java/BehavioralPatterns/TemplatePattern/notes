@@ -1,0 +1,23 @@
+Concepts
+-Great for code reuse
+-IoC Use this to allow pluggable components
+-Algorithm Emphasis
+-Collections.sort
+
+Design
+-Based around abstract base class
+-Hooks
+-Operations
+-AbstractBase, Concrete Class
+
+Pitfalls
+-Restrict access to certain methods
+-Confusing Hierarchy
+-Difficult program flow
+
+Compared to strategy pattern
+
+Template uses same algorithm, is class based, and is chosen at compile time
+-Strategy pattern is an algorithm per strategy, and more about the interface. Chosen at runtime
+-https://stackoverflow.com/questions/669271/what-is-the-difference-between-the-template-method-and-the-strategy-patterns
+

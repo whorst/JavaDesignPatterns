@@ -1,0 +1,23 @@
+Concepts
+-Meant to treat components the same whether it is a part of a structure or a while structure
+-Individual objects treated as a composite
+-Same operations applied on individual composites
+
+Examples:
+    -jwt.Component
+    -JSF Widgets
+    -RESTful Service GETs
+
+Design
+-Tree structured where the root is the component.
+-Components are a lead or a composite of objects
+-Leaf or composite, same operations
+-Composite knows about child objects
+-Component, Leaf, Composite
+
+UML
+-Component is the abstract for all components
+-The component can define methods for accessing the component
+-The leaf implements all of the Components methods
+-The composite is a component that has methods that allow the interaction with children
+

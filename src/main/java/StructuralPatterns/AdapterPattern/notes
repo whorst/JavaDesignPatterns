@@ -1,0 +1,9 @@
+Concepts
+-Convert interface into another interface
+-Translates request from the client into the code we want to change
+-Used to interface with legacy code
+-Client/adapter/adaptee
+Examples
+    -Arrays -> List Collections conversion
+    -Stream classes
+
