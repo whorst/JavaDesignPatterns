@@ -1,6 +1,7 @@
 package CreationPatterns.Singleton;
 
 import javax.management.InstanceAlreadyExistsException;
+import java.sql.Connection;
 
 public class DBSingleton {
     private static volatile DBSingleton instance = null; //volatile is threadsafe
@@ -47,5 +48,9 @@ public class DBSingleton {
         } catch (InstanceAlreadyExistsException e) {
             e.printStackTrace();
         }
+    }
+
+    public Object getConnection() {
+        return new Object();
     }
 }

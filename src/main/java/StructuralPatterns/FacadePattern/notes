@@ -1,0 +1,32 @@
+Concepts
+-Make an api easier to use
+-Reduce Dependencies on outside code
+-Usually a refactoring pattern
+-Examples:
+    Java.net.url
+    javax.faces.context.FacesContent
+
+Design
+-Class that utilizes composition
+-Shouldn't have a need for inheritance
+-Typically encompasses full lifecycle
+
+A design pattern is a common way of solving a recurring problem. Classes in all design patterns are just normal classes.
+ What is important is how they are structured and how they work together to solve a given problem in the best possible way.
+
+The Facade design pattern simplifies the interface to a complex system; because it is usually composed of all the classes
+which make up the subsystems of the complex system.
+
+A Facade shields the user from the complex details of the system and provides them with a simplified view of it which is
+easy to use. It also decouples the code that uses the system from the details of the subsystems, making it easier to modify
+the system later.
+
+http://www.dofactory.com/Patterns/PatternFacade.aspx
+
+http://www.blackwasp.co.uk/Facade.aspx
+
+Also, what is important while learning design patterns is to be able to recognize which pattern fits your given problem
+and then using it appropriately. It is a very common thing to misuse a pattern or trying to fit it to some problem just
+because you know it. Be aware of those pitfalls while learning\using design patterns.
+
+https://stackoverflow.com/questions/5242429/what-is-the-facade-design-pattern

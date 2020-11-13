@@ -1,0 +1,20 @@
+Concepts
+-Also called a wrapper
+-Add behavior without affecting others
+-Its more than inheritance, you're controlling which pieces compliment your object
+-SRP
+-Compose Behavior Dynamically
+-Examples:
+    -Java.io.InputStream
+    -java.utils.Collections
+    -Ui Components
+Inheritance Based:
+    -Utilizes composition and inheritance
+    -Alternative to subclassing
+    -Constructor requires instance from hierarchy
+
+Pitfalls
+    -New class or every feature
+    -Multiple Littler Objects
+    -Often confused with inheritance
+    -
